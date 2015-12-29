@@ -1,0 +1,4 @@
+SELECT Customer.id, CustomerInfo.id
+FROM Customer
+LEFT JOIN CustomerInfo
+ON Customer.id = CustomerInfo.id ;
