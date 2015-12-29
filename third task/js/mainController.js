@@ -9,7 +9,7 @@ mainApp.controller('mainCtrl', function ($scope) {
             $scope.max_ending_here = Math.max($scope.array[i], $scope.max_ending_here + $scope.array[i]);
             $scope.max_so_far = Math.max($scope.max_so_far, $scope.max_ending_here);
         }
-        console.log($scope.max_so_far);
+        $scope.result = $scope.max_so_far;
     };
     $scope.inputNumber = "Type ur number here . . .";
 });

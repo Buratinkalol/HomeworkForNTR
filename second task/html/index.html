@@ -3,10 +3,10 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>Tasks</title>
-    <link href="../libs/bootstrap/bootstrap.min.css">
+    <link href="../libs/bootstrap/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-<div>
+<div style="margin: 10px">
     <input type="text" placeholder="{{inputNumber}}" name="inputNumber" ng-model="inputNum" ng-pattern="/^0|[1-9][0-9]*$/" ng-bind="find(inputNum)" required>
     <p>
         <span>Yours index: {{result}}</span>
